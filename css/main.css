@@ -1,0 +1,162 @@
+html, body{
+	font-size: 10px;
+}
+
+header{
+	background-color: #322e39;
+	height: 80px;
+	border-top: 5px solid black;
+	box-shadow: v-shadow;
+	box-shadow: 0px 5px 10px #888888;
+	z-index: 1000;
+
+}
+
+header li a{
+	color: white;
+	font-size: 1.5rem;
+	background-color: transparent;
+	
+
+}
+
+header li a:hover{
+	color: #d5235e;
+	background-color: transparent!important;
+}
+
+.pd-cont{
+	padding-right: 100px;
+  	padding-left: 100px;
+}
+
+.pre{
+	background-color: #dddde8;
+
+}
+.pre .blanco{
+	border-bottom: 2px dashed #dddde8;
+	padding: 3%;
+}
+
+.blanco{
+	background-color: white!important;
+	padding: 15px 15px;
+}
+.portfolio{
+	background-color: #dddde8;
+}
+
+.portfolio a{
+	color: #b0adb7!important;
+}
+
+.portfolio a:hover{
+	color: #6a6375!important;
+}
+
+.portfolio p{
+	color: #6a6375;
+}
+
+.portfolio .blanco{
+	padding: 3%;
+	border-bottom: 2px dashed #dddde8;
+
+
+}
+
+
+
+/*******BOTÓN*****/
+ .btn {
+ 	border-radius: 30px;
+ 	background-color: #b0adb7;
+ 	color: white;
+ 	font-size: 1rem;
+ 	padding: .5rem 1rem;
+ 	margin-left: 25%;
+ }
+
+ .btn:hover, .btn:focus {
+    background: #323A45;
+    text-decoration: none;
+    color: white;
+    border-color: rgba(204, 204, 204, 0.2);
+  }
+
+ .btn2 {
+ 	border-radius: 30px;
+ 	background-color: #6a6375;
+ 	color: white;
+ 	font-size: 1rem;
+ 	padding: .5rem 1rem;
+ 	margin-left: 45%;
+ }
+
+ .btn2:hover, .btn2:focus {
+    background: #b0adb7;
+    text-decoration: none;
+    color: #6a6375;
+    border-color: rgba(204, 204, 204, 0.2);
+  }
+
+/***NAVBAR**********************************************/
+
+.navbar {
+  background-color: transparent;
+  margin-bottom: 0;
+}
+.navbar-default {
+  background-color: transparent;
+}
+.nav .nav-divider {
+  height: 1.5rem;
+  margin: 16px;
+  overflow: hidden;
+  background-color: transparent;
+  border: 1px solid #979797;
+  }
+.navbar-brand {
+	padding: 0;
+}
+.logo {
+	height: 60px;
+	width: auto;
+	margin: auto;
+	margin-top: 4%;	
+}
+.logo h1, i {
+	margin: auto;
+	display: inline;
+}
+
+.navbar-collapse{
+	border-top: 1px solid transparent;
+	box-shadow: none;
+}
+
+.navegador {
+	
+	padding: 0rem 12rem 0rem 10rem;
+
+}
+
+.navegador2 {
+	position: fixed;
+	padding: 2.2rem 12rem 0rem 10rem;
+	z-index: 1000;
+	background-color: rgba(0, 0, 0, 0.6);
+
+
+}
+
+.portfolio li a{
+	font-family: 'Dosis';
+	font-size: 1.4rem;
+	font-weight: 500;
+}
+
+
+
+
